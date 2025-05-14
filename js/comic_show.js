@@ -13,7 +13,7 @@ writeNav(true); //show navigation for comic pages. to toggle either images or te
 //debug
 console.log(pg)
 
-writePageTitle(".writePageTitle", true, " - "); //write title of page. true/false
+writePageTitle(".writePageTitle", false, " - "); //write title of page. true/false
 
 writePageClickable(".writePageClickable",true); //show the current page. to toggle whether pages can be clicked to move to the next one, set this to true or false.
 

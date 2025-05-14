@@ -10,11 +10,11 @@ writeArchive(
     1, //earliest page to list
     maxpg, //latest page to list. setting to maxpg will make it automatically update with the latest page
     -1, //if set to 0, list is displayed "latest first". if set to -1, list is displayed chronologically
-    true, //if set to true, each comic will have its own thumbnail image next to it. if a comic doesn't have its own thumbnail, it'll be set to the default thumbnail.
-    true //if set to true, each comic will have a display number
+    false, //if set to true, each comic will have its own thumbnail image next to it. if a comic doesn't have its own thumbnail, it'll be set to the default thumbnail.
+    false //if set to true, each comic will have a display number
 );
 
-writeArchive("lastfirst", 1, maxpg, 0, true,true);
+writeArchive("lastfirst", 1, maxpg, 0, false,false);
 
 writeArchive("chapter1",1,3,-1,false,true) //writeArchive is for listing a RANGE of pages, take advantage of this by using headers to divide them into chapters or by month
 

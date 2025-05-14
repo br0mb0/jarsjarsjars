@@ -5,10 +5,13 @@ document.querySelector(".writeHeader").innerHTML = `
         <a href="index.html"><img src="./img/logo.png" alt="" /></a> 
 
         <div id="nav">
-            <a href="index.html">HOME</a> |
-            <a href="archive.html">ARCHIVE</a> |
-            <a href="about.html">ABOUT</a> |
-            <a href="characters.html">CHARACTERS</a>
+            <a href="index.html">home</a> 
+			<a style="color: #4F5A32">|</a>
+            <a href="archive.html">archive</a> 
+			<a style="color: #4F5A32">|</a>
+            <a href="about.html">about</a> 
+			<a style="color: #4F5A32">|</a>
+            <a href="characters.html">characters</a>
         </div>
     </header>
 `;
